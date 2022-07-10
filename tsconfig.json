@@ -27,6 +27,9 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "esModuleInterop": true, // <- add this
+    "allowSyntheticDefaultImports": true, // <-- add this
+    "skipLibCheck": true // <- added this
   }
 }
